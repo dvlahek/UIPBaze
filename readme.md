@@ -19,8 +19,8 @@ Popis skupova podataka za predmet PUI
 * vrtic - vrtic.csv: Skup podataka za rangiranje prijave za određeni vrtić
 * cc_approval_cleaned - cc_approval_cleaned.csv: Skup podataka za predviđanja odobrenja kreditnih kartica
 * hitters - hitters.csv: Skup podataka za predviđanja plaći igrača bejzbola
-## Opisi
 
+## Opisi značajki
 ## Značajke bikesharing_daily 
 * instant: indeks zapisa
 * dteday: datum
@@ -347,23 +347,23 @@ date_time
 * Income: prihodi
 * ApprovalStatus: Značajka koju predviđamo - preporuka za kreditnu karticu
 ## hitters
-AtBat: Broj udaraca bejzbolskom palicom tijekom sezone 
-hITS: Broj pogodaka u sezoni 
-HmRun: Najvrjedniji pogoci u sezoni 
-rUNS: Bodovi koje je zaradio za svoju momčad u sezoni
-RBI: Broj igrača koje je udarač trčao kada je pogodio u sezoni
-Walks: Broj pogrešaka koje je napravio protivnički igrač
-Years: Vrijeme igranja igrača u višoj ligi (u godini)
-CAtBat: Broj udaraca bejzbolskom palicom u karijeri
-CHITOVI: Broj pogodaka napravljenih u karijeri
-CHmRun: Najvrjedniji pogoci u karijeri
-CRuns: bodovi koje je zaradio za svoj tim u svojoj karijeri
-CRBI: Broj igrača koje je udarač trčao kada je pogodio u karijeri
-CWwalks: Broj pogrešaka koje je napravio protivnički igrač u karijeri
-League: faktor s razinama A i N koji pokazuje ligu u kojoj je igrač igrao do kraja sezone
-Division: faktor s razinama E i W koji označava poziciju koju je igrač igrao na kraju sezone
-PutOuts: Pomaganje suigraču u igri
-Assists: Broj asistencija koje je igrač ostvario
-Errors: Pogreške igrača u sezoni 
-Salary:  Značajka koju predviđamo -Plaća igrača u sezoni 
- NewLeague: faktor s razinama A i N koji prikazuje ligu igrača na početku sezone
+* AtBat: Broj udaraca bejzbolskom palicom tijekom sezone 
+* Hits: Broj pogodaka u sezoni 
+* HmRun: Najvrjedniji pogoci u sezoni 
+* rUNS: Bodovi koje je zaradio za svoju momčad u sezoni
+* RBI: Broj igrača koje je udarač trčao kada je pogodio u sezoni
+* Walks: Broj pogrešaka koje je napravio protivnički igrač
+* Years: Vrijeme igranja igrača u višoj ligi (u godini)
+* CAtBat: Broj udaraca bejzbolskom palicom u karijeri
+* Chits: Broj pogodaka napravljenih u karijeri
+* CHmRun: Najvrjedniji pogoci u karijeri
+* CRuns: bodovi koje je zaradio za svoj tim u svojoj karijeri
+* CRBI: Broj igrača koje je udarač trčao kada je pogodio u karijeri
+* CWwalks: Broj pogrešaka koje je napravio protivnički igrač u karijeri
+* League: faktor s razinama A i N koji pokazuje ligu u kojoj je igrač igrao do kraja sezone
+* Division: faktor s razinama E i W koji označava poziciju koju je igrač igrao na kraju sezone
+* PutOuts: Pomaganje suigraču u igri
+* Assists: Broj asistencija koje je igrač ostvario
+* Errors: Pogreške igrača u sezoni 
+* Salary:  Značajka koju predviđamo -Plaća igrača u sezoni 
+* NewLeague: faktor s razinama A i N koji prikazuje ligu igrača na početku sezone
