@@ -16,6 +16,9 @@ Popis skupova podataka za predmet PUI
 * bankruptcy - bankruptcy.csv: Skup podataka za predviđanje stečaja poduzeća
 * steel_industry_energy_consuption - steel_industry_energy_consuption.csv: Podaci prikupljeni iz pametne čeličane za predikciju potrošnje energije u industriji čelika
 * water_potability - water_potability.csv: Skup za predviđanje je li voda za piće ili ne
+* vrtic - vrtic.csv: Skup podataka za rangiranje prijave za određeni vrtić
+* cc_approval_cleaned - cc_approval_cleaned.csv: Skup podataka za predviđanja odobrenja kreditnih kartica
+* hitters - hitters.csv: Skup podataka za predviđanja plaći igrača bejzbola
 ## Opisi
 
 ## Značajke bikesharing_daily 
@@ -318,4 +321,49 @@ date_time
 * Trihalomethanes: Trihalometani  u vodi
 * Turbidity: turbiditet označava zamućenost vode uzrokovanu prisutnošću suspendiranih čestica
 * Potability: Značajka koju predviđamo - Pitka ili ne
-
+## Vrtic
+* parents: kategorije zanimanja roditelja
+* has_nurs: status vrtića
+* form: status roditelja
+* children: broj dijece roditelja
+* housing: uvjeti stanovanja
+* finance: materijalno stanje roditelja
+* social: socijalno stanje familije
+* health: zdrastveno stanje djeteta
+* final evaluation: Značajka koju predviđamo - preporuka za upis u vrtic
+## cc_approval_cleaned
+* Gender: spol
+* Age: starost
+* Debt: dug
+* Married: bračni status
+* BankCustomer: je li korisnik te banke
+* EducationLevel: razina obrazovanja
+* Ethnicity: etnička pripadnost (kategorična)
+* YearsEmployed: Godina zaposlenja
+* PriorDefault: je li ikad imao osobni bankrot
+* Employed: Zaposlenje
+* CreditScore: Kreditna ocjena
+* Citizen: je li građanin države ili stranac
+* Income: prihodi
+* ApprovalStatus: Značajka koju predviđamo - preporuka za kreditnu karticu
+## hitters
+AtBat: Broj udaraca bejzbolskom palicom tijekom sezone 
+hITS: Broj pogodaka u sezoni 
+HmRun: Najvrjedniji pogoci u sezoni 
+rUNS: Bodovi koje je zaradio za svoju momčad u sezoni
+RBI: Broj igrača koje je udarač trčao kada je pogodio u sezoni
+Walks: Broj pogrešaka koje je napravio protivnički igrač
+Years: Vrijeme igranja igrača u višoj ligi (u godini)
+CAtBat: Broj udaraca bejzbolskom palicom u karijeri
+CHITOVI: Broj pogodaka napravljenih u karijeri
+CHmRun: Najvrjedniji pogoci u karijeri
+CRuns: bodovi koje je zaradio za svoj tim u svojoj karijeri
+CRBI: Broj igrača koje je udarač trčao kada je pogodio u karijeri
+CWwalks: Broj pogrešaka koje je napravio protivnički igrač u karijeri
+League: faktor s razinama A i N koji pokazuje ligu u kojoj je igrač igrao do kraja sezone
+Division: faktor s razinama E i W koji označava poziciju koju je igrač igrao na kraju sezone
+PutOuts: Pomaganje suigraču u igri
+Assists: Broj asistencija koje je igrač ostvario
+Errors: Pogreške igrača u sezoni 
+Salary:  Značajka koju predviđamo -Plaća igrača u sezoni 
+ NewLeague: faktor s razinama A i N koji prikazuje ligu igrača na početku sezone
